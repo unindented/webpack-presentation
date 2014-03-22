@@ -1,35 +1,22 @@
 /**
- * Default theme for reveal.js.
+ * Microsoft theme for reveal.js.
  *
- * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ * Copyright (C) 2014 Daniel Perez Alvarez
  */
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
-@font-face {
-  font-family: 'League Gothic';
-  src: url("../../lib/font/league_gothic-webfont.eot");
-  src: url("../../lib/font/league_gothic-webfont.eot?#iefix") format("embedded-opentype"), url("../../lib/font/league_gothic-webfont.woff") format("woff"), url("../../lib/font/league_gothic-webfont.ttf") format("truetype"), url("../../lib/font/league_gothic-webfont.svg#LeagueGothicRegular") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic);
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #1c1e20;
-  background: -moz-radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #555a5f), color-stop(100%, #1c1e20));
-  background: -webkit-radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
-  background: -o-radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
-  background: -ms-radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
-  background: radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
-  background-color: #2b2b2b; }
+  background: white;
+  background-color: white; }
 
 .reveal {
-  font-family: "Lato", sans-serif;
-  font-size: 36px;
+  font-family: "Segoe UI Light", "Open Sans", sans-serif;
+  font-size: 48px;
   font-weight: normal;
   letter-spacing: -0.02em;
-  color: #eeeeee; }
+  color: #333333; }
 
 ::selection {
   color: white;
@@ -46,21 +33,21 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #eeeeee;
-  font-family: "League Gothic", Impact, sans-serif;
-  line-height: 0.9em;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }
+  color: #333333;
+  font-family: "Segoe UI Light", "Open Sans", sans-serif;
+  line-height: 1em;
+  letter-spacing: 0;
+  text-transform: none;
+  text-shadow: 0 0 1em rgba(0, 0, 0, 0.5); }
 
 .reveal h1 {
-  text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbbbbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaaaaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.15); }
+  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }
 
 /*********************************************
  * LINKS
  *********************************************/
 .reveal a:not(.image) {
-  color: #13daec;
+  color: #0072c6;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
@@ -69,13 +56,13 @@ body {
   transition: color .15s ease; }
 
 .reveal a:not(.image):hover {
-  color: #71e9f4;
+  color: #2da6ff;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #0d99a5; }
+  background: #00467a; }
 
 /*********************************************
  * IMAGES
@@ -83,7 +70,7 @@ body {
 .reveal section img {
   margin: 15px 0px;
   background: rgba(255, 255, 255, 0.12);
-  border: 4px solid #eeeeee;
+  border: 4px solid #333333;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
   -webkit-transition: all .2s linear;
   -moz-transition: all .2s linear;
@@ -93,7 +80,7 @@ body {
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color: #13daec;
+  border-color: #0072c6;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
@@ -101,31 +88,31 @@ body {
  *********************************************/
 .reveal .controls div.navigate-left,
 .reveal .controls div.navigate-left.enabled {
-  border-right-color: #13daec; }
+  border-right-color: #0072c6; }
 
 .reveal .controls div.navigate-right,
 .reveal .controls div.navigate-right.enabled {
-  border-left-color: #13daec; }
+  border-left-color: #0072c6; }
 
 .reveal .controls div.navigate-up,
 .reveal .controls div.navigate-up.enabled {
-  border-bottom-color: #13daec; }
+  border-bottom-color: #0072c6; }
 
 .reveal .controls div.navigate-down,
 .reveal .controls div.navigate-down.enabled {
-  border-top-color: #13daec; }
+  border-top-color: #0072c6; }
 
 .reveal .controls div.navigate-left.enabled:hover {
-  border-right-color: #71e9f4; }
+  border-right-color: #2da6ff; }
 
 .reveal .controls div.navigate-right.enabled:hover {
-  border-left-color: #71e9f4; }
+  border-left-color: #2da6ff; }
 
 .reveal .controls div.navigate-up.enabled:hover {
-  border-bottom-color: #71e9f4; }
+  border-bottom-color: #2da6ff; }
 
 .reveal .controls div.navigate-down.enabled:hover {
-  border-top-color: #71e9f4; }
+  border-top-color: #2da6ff; }
 
 /*********************************************
  * PROGRESS BAR
@@ -134,7 +121,7 @@ body {
   background: rgba(0, 0, 0, 0.2); }
 
 .reveal .progress span {
-  background: #13daec;
+  background: #0072c6;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -ms-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
@@ -145,4 +132,16 @@ body {
  * SLIDE NUMBER
  *********************************************/
 .reveal .slide-number {
-  color: #13daec; }
+  color: #0072c6; }
+
+.reveal blockquote {
+  box-shadow: none; }
+
+.reveal ul {
+  list-style: none; }
+
+.reveal pre {
+  border: 4px solid #333333; }
+  .reveal pre code {
+    padding: 10px;
+    max-height: 575px; }
