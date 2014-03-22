@@ -42,3 +42,15 @@ $linkColorHover: lighten($linkColor, 20%);
 .reveal blockquote {
   box-shadow: none;
 }
+
+.reveal ul {
+  list-style: none;
+}
+
+.reveal pre {
+  border: 4px solid $mainColor;
+
+  code {
+    padding: 10px;
+  }
+}
