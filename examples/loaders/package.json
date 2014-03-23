@@ -1,0 +1,11 @@
+{
+  "name": "loaders",
+  "private": true,
+  "scripts": {
+    "build": "./node_modules/.bin/webpack"
+  },
+  "devDependencies": {
+    "webpack": "~1.4.15",
+    "coffee-loader": "~0.7.2"
+  }
+}

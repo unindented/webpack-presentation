@@ -1,0 +1,12 @@
+{
+  "name": "plugins",
+  "private": true,
+  "scripts": {
+    "build": "DEBUG=true ./node_modules/.bin/webpack",
+    "optim": "./node_modules/.bin/webpack -p"
+  },
+  "devDependencies": {
+    "webpack": "~1.4.15",
+    "i18n-webpack-plugin": "~0.2.7"
+  }
+}

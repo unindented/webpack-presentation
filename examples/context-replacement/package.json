@@ -1,0 +1,11 @@
+{
+  "name": "context-replacement",
+  "private": true,
+  "scripts": {
+    "build": "./node_modules/.bin/webpack"
+  },
+  "devDependencies": {
+    "webpack": "~1.4.15",
+    "moment": "~2.8.4"
+  }
+}

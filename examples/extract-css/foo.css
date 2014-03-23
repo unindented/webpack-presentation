@@ -1,0 +1,8 @@
+body {
+  background: transparent url('./bg.png') repeat;
+}
+
+div {
+  background-color: black;
+  color: white;
+}

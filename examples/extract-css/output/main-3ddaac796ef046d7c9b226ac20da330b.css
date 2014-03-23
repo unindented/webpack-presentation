@@ -1,0 +1,13 @@
+body {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABAAgMAAADXB5lNAAAADFBMVEXExMTg4ODl5eXo6OhkssZvAAAAmElEQVR4AY2SwamGQQwC08Q28ZqwCpt8TaQ0f5Yg5NuTHodhThY0Q89KmnUOiE/i1CMoACR2gvUICgBJrATrERQAkvxzgk9DkgLAO/QddNyQBSkApCOQdNyQBQWAjkB3x4ZaswAcRwxaXg6+EVR/lY7AjuCCrXQEdgQDegkh+HcEr9ExgCYCgyVEwL8gYbCEDPgXhMESMvADG7hGhH+s+3AAAAAASUVORK5CYII=) repeat;
+}
+
+div {
+  background-color: black;
+  color: white;
+}
+div {
+  margin: 0 auto;
+  text-align: center;
+  width: calc(100% - 100px);
+}
