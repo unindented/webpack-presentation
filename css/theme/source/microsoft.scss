@@ -1,0 +1,56 @@
+/**
+ * Microsoft theme for reveal.js.
+ *
+ * Copyright (C) 2014 Daniel Perez Alvarez
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic);
+
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: #fff;
+
+$mainColor: #333;
+$mainFont: 'Segoe UI Light', 'Open Sans', sans-serif;
+$mainFontSize: 48px;
+
+$headingColor: #333;
+$headingFont: 'Segoe UI Light', 'Open Sans', sans-serif;
+$headingLineHeight: 1em;
+$headingTextShadow: 0 0 1em rgba(0, 0, 0, 0.5);
+$headingLetterSpacing: 0;
+$headingTextTransform: none;
+
+$linkColor: #0072c6;
+$linkColorHover: lighten($linkColor, 20%);
+
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
+
+// Some overrides after theme template import
+
+.reveal blockquote {
+  box-shadow: none;
+}
+
+.reveal ul {
+  list-style: none;
+}
+
+.reveal pre {
+  border: 4px solid $mainColor;
+
+  code {
+    padding: 10px;
+  }
+}
